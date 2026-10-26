@@ -1,0 +1,54 @@
+.eliminar {
+    padding: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 1rem;
+    border: 2px solid #f50000;
+    transition: all 0.3s ease;
+    
+}
+
+.eliminar:hover {
+    background-color: #ff4d4d;
+    transform: translateY(-3px);
+    color: white;
+    box-shadow: 0 4px 1px 0px rgba(0, 0, 0, 0.897);
+}
+
+.editar{
+      padding: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 1rem;
+    border: 2px solid rgb(241, 147, 7);
+    transition: all 0.3s ease;
+}
+
+.editar:hover {
+    background-color: rgb(241, 147, 7);
+    transform: translateY(-3px);
+    color: white;
+    box-shadow: 0 4px 1px 0px rgba(0, 0, 0, 0.897);
+}
+
+.administracion-contenido {
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    width: 165vh;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 0.5rem;
+    gap: 1rem;
+
+}
